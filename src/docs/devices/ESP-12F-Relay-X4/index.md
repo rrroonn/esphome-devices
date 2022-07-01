@@ -55,6 +55,11 @@ This board has headers for every GPIO pin on its ESP-12F.
 | GPIO12 | Use a jumper to RY3 to enable Relay 3 |
 | GPIO13 | Use a jumper to RY4 to enable Relay 4 |
 
+## Note
+Some (maybe all) boards do not have pin headers installed.  You may have to solder headers so that
+you can add the jumpers to allow control of the relays.  Without the headers and jumpers, the relays will not work.
+
+
 ## Basic Config
 
 ```yaml
